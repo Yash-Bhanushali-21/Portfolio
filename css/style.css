@@ -37,7 +37,7 @@ body {
     z-index: 999999;
   }
   #content {
-    background-image: url(../images/allinOne.gif);
+    background-image: url(images\allinOne.gif);
     background-repeat: none;
     width:200px;
     height:200px;
