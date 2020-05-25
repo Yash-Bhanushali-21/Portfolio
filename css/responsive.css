@@ -1,0 +1,391 @@
+/*================================
+ Media Queries for Responsiveness
+  ================================*/
+
+ /*larger devices */
+
+ @media(min-width:1200px) { /*display heading */
+#home-heading h1{
+ font-size:30px;
+ font-weight:120;
+ }
+
+#home-heading h1:nth-child(2) span{
+    color:#f4c613;
+ font-size:50px;
+ font-weight:bold;
+
+ }
+#home-heading h1:nth-child(3) span:not([class]) { 
+ color:#f4c613;
+ font-size:30px;
+ font-weight:bold; 
+}
+ul.navbar-nav > li > a,.white-nav-top ul.navbar-nav > li > a {
+	font-size:16px;
+ }
+
+}
+
+/*medium devices (LandScape Tablets & Medium Desktops) */
+
+@media(min-width: 992px) and (max-width: 1199px) {
+ p /*font-size of generic p section is much less */{
+ 	font-size: 15px;
+ }
+}
+
+
+/*small devices (portrait tablets and small desktops) */
+
+@media(min-width: 768px) and (max-width: 991px) {
+
+/* headings section */
+#home-content-inner {
+	text-align: center;
+}
+#text-alter {
+	display: block;
+	font-size: 20px;
+}
+#home-heading h1:nth-child(2) span{
+ font-size:35px;
+ }
+ #home-heading h1{
+ font-size:20px;
+ }
+ /*navbar section */
+ nav.navbar .navbar-brand {
+ 	font-size:22px;
+ }
+ ul.navbar-nav .nav-item{ /*aligning the elements to right for first nav */
+    text-align: right;
+}
+.white-nav-top ul.navbar-nav .nav-item { /*aligning the elements to center for first nav */
+	text-align: center;
+}
+nav.navbar a. span {
+	color:#fff;
+}
+nav.navbar.white-nav-top a span {
+	color:black;
+}
+/*submit button */
+.submitbutton .submit {
+	font-size: 10px;
+}
+#circleBar .row div{
+	text-align: 10px;
+}
+/*about section fonts */
+.vertical-heading h5 { /*initial:14px*/
+	font-size: 10px;
+}
+.vertical-heading h2 {
+	font-size:27px;
+}
+
+/*back to top */
+
+#back-to-top { 
+	font-size:20px;
+}
+/*the ovelay hover section fonts */
+
+.portfolio-item-details h3 /*initial:30px*/ {
+	font-size:23px;
+}
+
+.portfolio-item-details p /*initial: 17px*/ {
+	font-size: 10px;
+}
+ul.address-details li {
+	font-size:15px;
+}
+footer p{
+  font-size:16px;
+}
+#skills .vertical-heading {
+	font-size:20px;
+
+}
+
+}
+/*extra small devices*/
+@media(max-width: 767px) {
+ 
+/*manipulating the size of circles */
+.circlechart .circle-chart {
+  width: 105px;
+  height: 95px; 
+}
+ .circlechart {
+	padding:0;
+}
+#skills .vertical-heading {
+  text-align: center;
+  font-size:20px;
+	transform: translateX(-45%);
+}
+/*navbar section */
+.rotate { /*toggle-down icon animations*/
+	color:#f4c613;
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+}
+.rotate.down {
+    -moz-transform:rotate(-90deg);
+    -webkit-transform:rotate(-90deg);
+    transform:rotate(-90deg);
+}
+ul.navbar-nav .nav-item{ /*aligning the elements to right for first nav */
+    text-align: right;
+}
+.white-nav-top ul.navbar-nav .nav-item { /*aligning the elements to center for first nav */
+	text-align: center;
+}
+ul.navbar-nav .nav-item a{ /*xhanging size of navbar dropdown items */
+	font-size:12px;
+}
+nav.navbar .navbar-toggler-icon {
+	font-size:14px;
+}
+
+nav.navbar .navbar-brand {
+ 	font-size:15px;
+}
+
+/*home heading section */
+#home-content-inner {
+	text-align: center;
+}
+#text-alter {
+	display: block;
+	font-size: 16px;
+}
+#home-heading h1:nth-child(2) span,#home-heading h1:nth-child(3) span:not([class]){
+ font-size:22px;
+ }
+
+ #home-heading h1{
+ font-size:17px;
+ }
+#back-to-top { 
+	font-size:15px;
+}
+/*about-01 */
+/*the space is too much for above section so reduce padding */
+.content-box-lg {
+	padding:80px 0;
+}
+
+/*vertical heading section */
+.vertical-heading {
+	text-align: center;
+}
+/*removing the vertical rotate option and making horizontal */
+.vertical-heading h5 {
+	-webkit-transform:rotate(0deg);
+transform: rotate(0deg);
+display: block;
+position: static;
+margin-bottom:10px;
+}
+.vertical-heading h2 {
+	font-size:27px; /*reducing size of our headings */
+	line-height: normal;
+	margin:0;
+}
+
+#about-left { /*giving margin to our hheadings */
+	margin-bottom: 50px;
+}
+#about-right {
+	text-align: center;
+}
+#about-02 #circleBar .row:nth-child(1) > div {
+	font-size:20px;
+	transform: translateX(40%);
+}
+#portfolio .vertical-heading {
+	margin-bottom:30px;
+}
+.portfolio-item-details h3 /*initial:23px*/ {
+	font-size:12px;
+}
+
+.portfolio-item-details p /*initial: 10px*/ {
+	font-size: 8px;
+}
+
+/*Contact Section */
+#contact-left {
+	text-align:center;
+}
+
+ul.address-details li {
+	display: block;
+	margin-top:20px;
+	font-size:14px;
+}
+ul.address-details li i {
+	width:auto;
+	display: block;
+	margin-bottom: 3px;
+}
+
+ul.social-list {
+	margin-bottom: 40px;
+}
+/*submit button */
+.submitbutton .submit {
+	font-size: 8px;
+}
+
+}
+
+/*extra small devices (portrait phones and smaller devices,android phones) */
+
+@media (max-width: 480px) { 
+/*again paying heed to circles as they go frenzy immediately */
+.circlechart .circle-chart {
+  width: 80px;
+  height: 75px; 
+}
+ /*reducing generic vertical headings size */
+ .vertical-heading h2 {
+ 	font-size:20px;
+ }
+ p {
+ 	font-size: 11px;
+ }
+/*home headiing section */
+#home-heading h1:nth-child(2) span{
+ font-size:35px;
+ }
+ #home-heading h1{
+ font-size:12px;
+ }
+ /*navigation style */
+ nav.navbar.white-nav-top a span {
+	color:black;
+}
+ul.navbar-nav .nav-item a{ /*xhanging size of navbar dropdown items */
+	font-size:10px;
+}
+/*addressing the skills section */
+#skills .vertical-heading {
+	font-size:14px;
+	transform: translateX(-45%);
+}
+/*the text below the progress-circle of skills */
+#innerCircle .col-md-3 span {
+	font-size:11px;
+}
+
+/*portfolio section begins */
+#isotope-filters button span {
+	font-size:10px;
+}
+.portfolio-item-details h3 /*initial:30px*/ {
+	font-size:20px;
+}
+
+.portfolio-item-details p /*initial: 17px*/ {
+	font-size: 12px;
+}
+ul.address-details li {
+	font-size:12px;
+}
+#contact-right form h4 {
+	font-size: 15px;
+}
+/*submit button */
+.submitbutton .submit {
+	font-size: 10px;
+}
+#back-to-top { 
+	font-size:10px;
+}
+
+}
+@media (max-width: 360px) { /*Galaxy S series bugged*/
+	.circlechart .circle-chart {
+  width: 70px;
+  height: 68px; 
+}
+
+} 
+@media(max-width: 320px) /*more smaller resoultion cells */ /*to */
+ {
+ 	/*main page*/
+ 	#home-heading h1 {
+ 		font-size:13px;
+ 	}
+ 	#home-heading h1:nth-child(2) {
+ 		display: block;
+ 	}
+ 	#home-heading h1:nth-child(2) span{
+ 		display: block;
+ font-size:30px;
+ }
+ /*generic section */ 
+ .vertical-heading h5 {
+ 	font-size:12px;
+ }
+ .vertical-heading h2 {
+ 	font-size:17px;
+ }
+ p {
+ 	font-size: 10px;
+ }
+ /*nav-section */
+ ul.navbar-nav .nav-item a{ /*xhanging size of navbar dropdown items */
+	font-size:9px;
+}
+/*skill section circular */
+/*again paying heed to circles as they go frenzy immediately */
+.circlechart .circle-chart {
+  width: 55px;
+  height: 75px;
+  margin: 1px;
+}
+/*addressing the skills section */
+#skills .vertical-heading {
+	font-size:14px;
+	transform: translateX(-45%);
+	padding-top:1px;
+}
+/*the text below the progress-circle of skills */
+#innerCircle .col-md-3 span {
+	font-size:8px;
+}
+/*portfolio section */
+#isotope-filters button span {
+	font-size:8px;
+	padding: 1px;
+}
+
+/* //TODO: overlay section is bugged out */
+.portfolio-item-details h3 /*initial:30px*/ {
+	font-size:9px;
+	-webkit-transform: translateY(5%);
+  transform: translateY(5%);
+}
+.portfolio-item-details span {
+	height:2px; 
+  width:30px;
+  margin:0;
+  border:1px solid #fff;
+}
+.portfolio-item-details h3 /*initial:30px*/ {
+	font-size:20px;
+}
+
+.portfolio-item-details p /*initial: 17px*/ {
+	font-size: 12px;
+ }
+
+
+}

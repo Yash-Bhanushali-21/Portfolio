@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts:Raleway -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700&display=swap" rel="stylesheet">
+    <!-- google fonts:open-sans -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/font-awesome/css/all.css">
+    <!--magnific-popup plugin css file -->
+    <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css">
+    <!--animate css -->
+    <link rel="stylesheet" href="css\animate\animate.css">
+    <!-- including my css file -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- responsive .css file -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- including jquery file -->
+    <script src="js/jquery.js" type="text/javascript"> </script>
+    <!-- including bootstrap css file -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+    <!-- including bootstrap js file -->
+    <script src="js/bootstrap/bootstrap.js" type="text/javascript"> </script>
+    <!--jquery plugin -->
+    <link rel="stylesheet" href="css/progresscircle/progresscircle.css">
+    <!-- magnific-popup jquery section -->
+    <script src="js/magnific-popup/jquery.magnific-popup.min.js">
+    </script>
+    <!--wow.js-->
+    <script src="js/wow/wow.min.js" type="text/javascript"> </script>
+    <!--my script -->
+    <script src="js/script.js" type="text/javascript"> </script>
+    <meta charset="UTF-8">
+</head>
+<!-- going for class loading which will be revoked after animation for overflow property. -->
+
+<body class="loading" data-spy="scroll" data-offset="500" data-target=".navbar">
+    <!-- Preloader Begin here! -->
+    <div id="preloader">&nbsp;
+        <div id="content" style="display:none;">
+        </div>
+    </div>
+    <!-- preloader ends -->
+    <!---Header navbar  ----->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top" id="navbarNav" role="navigation">
+            <a class="navbar-brand" href="#">BlackGhost<span>://</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navbarNav" data-target="#NavSupport" aria-expanded="false" aria-label="Toggle navigation" >
+                <span class="navbar-toggler-icon" ><i class="fas fa-angle-down rotate"></i></span>
+            </button>
+            <div class="collapse navbar-collapse inner-navbar" id="NavSupport">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" id="temp" style="color: #f4c613;" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-01">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-02">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--Header navbar Ends -->
+    <!-- Home Section Begins here! -->
+    <section id="home">
+        <img id="background-image" src="C:\Users\Dj\Desktop\myProjectv1.0\images\background.jpg"></img>
+        <!-- overlay on image -->
+        <div id="home-overlay"></div>
+        <!-- Home content -->
+        <div id="home-content">
+            <!--inner child-->
+            <div id="home-content-inner">
+                <div id="home-heading">
+                    <h1 id="home-heading-1">Hey There!</h1>
+                    <h1 id="home-heading-2">I am <span>Yash Bhanushali</span></h1>
+                    <h1 id="home-heading-3">A <span>professional</span> <span class="txt-type" id="text-alter" data-wait="3000" data-words='["Full-Stack Developer://","Creator://","Designer://"]'></span></h1>
+                </div>
+            </div>
+            <!-- home-content-inner ends -->
+        </div>
+        <!-- home-content ends -->
+        <!--arrow down begin -->
+        <a href="#about" id="angle-down">
+            <i class="fas fa-angle-down"></i>
+        </a>
+        <!-- arrow down close -->
+    </section>
+    <!-- Home Section Ends -->
+    <!--About section begins -->
+    <section id="about">
+        <!-- first section of about starts -->
+        <div id="about-01">
+            <!--creating a box -->
+            <div class="content-box-lg">
+                <!-- commencing bs grid system -->
+                <div class="container">
+                    <!-- first row for about -->
+                    <div class="row">
+                        <!-- About left side content -->
+                        <div class="col-md-6 wow slideInLeft" data-wow-duration="1s">
+                            <div id="about-left">
+                                <div class="vertical-heading">
+                                    <h5>Who am I?</h5>
+                                    <h2>A brief <strong>Introduction</strong><br> About Me</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- About right side content -->
+                        <div class="col-md-6 wow slideInRight" data-wow-duration="1s">
+                            <div id="about-right">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--first row ends-->
+                    <!--second row starts -->
+                    <div class="row">
+                        <div class="col-md-12 wow fadeInUp" data-wow-duration="1.5s">
+                            <!-- since single col, therefore 12. -->
+                            <div id="about-bottom">
+                                <!-- image wrapper -->
+                                <img src="images\about.png" alt="about us" class="img-responsive" style='max-width:100%;'>
+                            </div>
+                        </div>
+                    </div>
+                    <!--second row ends -->
+                </div><!-- container ends -->
+            </div> <!-- box ends -->
+        </div>
+        <!-- first about-01 of about ends -->
+        <!-- second about-02 begins -->
+        <div id="about-02">
+            <!--second medium box commences -->
+            <div class="content-box-md" id="circleBar">
+                <!--bs grid sys comm -->
+                <div class="row">
+                    <div class="col-md-12 wow fadeInUp" data-wow-duration="2s" id="skills" >
+                    	<div class="vertical-heading">	
+                    		<h5>languages</h5>
+                    		<h2>Skills<i class="fas fa-tools"></i></h2>
+                    	</div>
+                    </div>
+                </div>
+                <div class="row" id="innerCircle">
+                    <!--html5 col -->
+                    <div class="col-md-3 col-3 wow fadeInLeft">
+                        <div class="circlechart" data-percentage="80">
+                        </div>
+                        <span class="text-center"><strong>Python </strong><i class="fab fa-python"></i>
+                        </span>
+                    </div>
+                    <!--html col end-->
+                    <!-- css3 col -->
+                    <div class="col-md-3 col-3 wow fadeInUp" data-wow-duration="1.5s">
+                        <div class="circlechart" data-percentage="70">
+                        </div>
+                        <span class="text-center"><strong>CSS3 </strong><i class="fab fa-css3"></i>
+                        </span>
+                    </div>
+                    <!--css3  col ends -->
+                    <!-- Javascript col begins-->
+                    <div class="col-md-3 col-3 wow fadeInUp" data-wow-duration="1.5s">
+                        <div class="circlechart" data-percentage="70">
+                        </div>
+                        <span class="text-center"><strong>JavaScript </strong><i class="fab fa-js-square"></i>
+                        </span>
+                    </div>
+                    <!-- javascript col ends -->
+                    <!-- bootstrap col begins -->
+                    <div class="col-md-3 col-3 wow fadeInRight">
+                        <div class="circlechart" data-percentage="80">
+                        </div>
+                        <span class="text-center"><strong>Bootstrap </strong><i class="fab fa-bootstrap"></i>
+                        </span>
+                    </div>
+                    <!-- bootstrap col ends -->
+                    <!-- TODO: hobbies and passion -->
+                </div>
+                <!--row1 ends here -->
+            </div>
+            <!--second medium box ends -->
+        </div>
+        <!-- second about-02 ends -->
+    </section>
+    <!-- About section ends -->
+    <!-- portfolio/work section begins here! -->
+    <section id="portfolio">
+        <!-- using content box medium! -->
+        <div class="content-box-md">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 wow slideInLeft">
+                        <div class="vertical-heading">
+                            <h5>Find My Work</h5>
+                            <h2>My<br>Amamzing <strong>Work</strong></h2>
+                        </div>
+                    </div>
+                    <!-- column for buttons for isotope filter -->
+                    <div class="col-md-12">
+                        <div id="isotope-filters">
+                            <!--buttons for isotope filter -->
+                            <button class="btn active" data-filter="*"><span>All</span></button> <!-- *denotes all elems -->
+                            <button class="btn" data-filter=".python"><span>Python</span></button> <!-- denotes class python -->
+                            <button class="btn" data-filter=".web"><span>Web</span></button> <!-- denotes .web class -->
+                        </div><!-- button for isotope filter ends -->
+                    </div><!-- column for buttons for isotope filter ends here! -->
+                </div>
+                <!--row ends-->
+            </div>
+            <!--container ends-->
+            <!-- portfolio-wrapper act like a main wrapper for components -->
+            <section id="portfolio-wrapper wow fadeInUp">
+                <div class="container">
+                    <div class="row no-gutters isotope-container">
+                        <!--why isotope container here? casue a direct parent to child realtinoship is required to define it! -->
+                        <div class="col-md-3 col-12 python">
+                            <!-- portfolio item -01 -->
+                            <div class="portfolio-item">
+                                <!-- note: the description of the proect will be always displayed via the title section of the tag with a source of image -->
+                                <a href="images/001.jpg" title="Python:Torrent Scrapper BeautifulSoup">
+                                    <img src="images/001.jpg" class="img-responsive" style="max-width: 100%; height:auto;">
+                                    <!--portfolio item -01 image overlay begin -->
+                                    <div class="portfolio-item-overlay">
+                                        <!--portfolio-item-details begin -->
+                                        <div class="portfolio-item-details text-center">
+                                            <!-- item header -->
+                                            <h3>Python</h3>
+                                            <!-- item strips -->
+                                            <span></span>
+                                            <!-- item description-->
+                                            <p>Torrent Scrapper BeautifulSoup</p>
+                                        </div>
+                                        <!--portfolio-item-details end-->
+                                    </div>
+                                    <!-- portfolio item -01 image overlay close -->
+                                </a>
+                            </div>
+                            <!-- portfolio item -01 finish -->
+                        </div>
+                        <!-- column finsih -->
+                        <div class="col-md-3 col-12 python">
+                            <!-- portfolio item -02 -->
+                            <div class="portfolio-item">
+                                <a href="images/002.jpg" title="Pygame:Module Tic-Tac-Toe">
+                                    <img src="images/002.jpg" class="img-responsive" style="max-width: 100%; height:auto;">
+                                    <!--portfolio item -02 image overlay begin -->
+                                    <div class="portfolio-item-overlay">
+                                        <!--portfolio-item-details begin -->
+                                        <div class="portfolio-item-details text-center">
+                                            <!-- item header -->
+                                            <h3>Python</h3>
+                                            <!-- item strips -->
+                                            <span></span>
+                                            <!-- item description-->
+                                            <p>Pygame Module Tic-Tac-Toe</p>
+                                        </div>
+                                        <!--portfolio-item-details end-->
+                                    </div>
+                                    <!-- portfolio item -02 image overlay close -->
+                                </a>
+                            </div>
+                            <!-- portfolio item -02 finish -->
+                        </div>
+                        <!-- column finsih -->
+                        <div class="col-md-3 col-12 python">
+                            <!-- portfolio item -03 -->
+                            <div class="portfolio-item">
+                                <a href="images/003.jpg" title="PyGame:Module Sorting Visualizer">
+                                    <img src="images/003.jpg" class="img-responsive" style="max-width: 100%; height:auto;">
+                                    <!--portfolio item -03 image overlay begin -->
+                                    <div class="portfolio-item-overlay">
+                                        <!--portfolio-item-details begin -->
+                                        <div class="portfolio-item-details text-center">
+                                            <!-- item header -->
+                                            <h3>Python</h3>
+                                            <!-- item strips -->
+                                            <span></span>
+                                            <!-- item description-->
+                                            <p>PyGame Module Sorting Visualizer</p>
+                                        </div>
+                                        <!--portfolio-item-details end-->
+                                    </div>
+                                    <!-- portfolio item -03 image overlay close -->
+                                </a>
+                            </div>
+                            <!-- portfolio item -03 finish -->
+                        </div>
+                        <!-- column finsih -->
+                        <div class="col-md-3 col-12 web">
+                            <!-- portfolio item -04 -->
+                            <div class="portfolio-item">
+                                <a href="images/004.jpg" title="Web-Development:Ecommerce Website">
+                                    <img src="images/004.jpg" class="img-responsive" style="max-width: 100%; height:auto;">
+                                    <!--portfolio item -04 image overlay begin -->
+                                    <div class="portfolio-item-overlay">
+                                        <!--portfolio-item-details begin -->
+                                        <div class="portfolio-item-details text-center">
+                                            <!-- item header -->
+                                            <h3>Web-Dev</h3>
+                                            <!-- item strips -->
+                                            <span></span>
+                                            <!-- item description-->
+                                            <p>Web-Design</p>
+                                        </div>
+                                        <!--portfolio-item-details end-->
+                                    </div>
+                                    <!-- portfolio item -04 image overlay close -->
+                                </a>
+                            </div>
+                            <!-- portfolio item -04 finish -->
+                        </div>
+                        <!-- column finsih -->
+                        <!-- creating 4 cols and then more 2 cols .. in this way adding items for projects in a 4x4 grid.. and for future projects as well! -->
+                    </div><!-- row ends -->
+                </div> <!-- container ends -->
+            </section> <!-- portfolio wrapper close -->
+        </div><!-- medium box ends -->
+    </section>
+    <!-- portfolio section ends here -->
+    <!-- contact section starts here! -->
+    <section id="contact">
+        <div class="content-box-md">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <!--left section of contact -->
+                        <div id="contact-left">
+                            <div class="vertical-heading wow slideInLeft" data-wow-duration="1.5s">
+                                <h5>Who Am I</h5>
+                                <h2>Get<br>In<strong>Touch</strong></h2>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. .</p>
+                            <div id="address_section wow fadeInUp" data-wow-duration="2s">
+                                <!-- address section begin-->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="address">
+                                            <h4>Mumbai</h4>
+                                            <ul class="address-details">
+                                                <li><i class="fas fa-mobile"></i>+91 7977992942</li>
+                                                <li><i class="fas fa-envelope"></i>yash.bhanushali@sakec.ac.in</li>
+                                                <li><i class="fas fa-map-pin"></i>Ghatkopar East,Maharashtra</li>
+                                            </ul>
+                                        </div>
+                                        <!--address ends here -->
+                                    </div>
+                                </div>
+                            </div> <!-- address_section close -->
+                            <ul class="social-list">
+                                <!--social-media section starts -->
+                                <li><a href="https://www.facebook.com/yash.bhadra.3" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.instagram.com/ysh_.bh_/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/yash-bhanushali-29476319a" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                            <!--social media section ends -->
+                        </div><!-- contact left done -->
+                    </div>
+                    <div class="col-md-6 wow fadeInUp" data-wow-duration="2s">
+                        <!-- right section begins here -->
+                        <div id="contact-right">
+                            <form method="POST" onsubmit="validate();" action="test.php">
+                                <h4>Send Message</h4>
+                                <p> </p>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="name" id="name" placeholder="your name *">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" name="email"  id="email" placeholder="your email *">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="phone"  id="phone" placeholder="your number *">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="subject" id="subject" placeholder="your subject">
+                                        </div>
+                                        <div class="form-group" style="display: none;">
+                                            <input type="text" class="form-control" name="isvalid" id="isvalid">
+                                        </div>
+                                    </div>
+                                </div> <!-- row finishes ! -->
+                                <div class="form-group">
+                                    <!-- text area feild -->
+                                    <textarea class="form-control" id="message" name="message"  placeholder="message">
+                                    </textarea>
+                                </div> <!-- textarea section is done! -->
+                                <!--submit button section -->
+                                <div id="*-btn" class="submitbutton">
+                                    <a class="btn submit" style=" font-family: 'Open Sans' , sans-serif;" href="" role='button' type="submit">Submit</a>
+                                </div>
+                                <!-- submit button section done -->
+                            </form>
+                            <!--form ends-->
+                        </div>
+                        <!-- right section ends here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- contact section ends here! -->
+    <!--footer section starts here -->
+    <footer class="text-center">
+        <!-- bootstrap container starts -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 wow fadeInUp">
+                    <p>
+                        Copyright &copy; 2020
+                         <span>BlackGhost</span><span style="color:#fff;">://</span>
+                    </p>
+                </div>
+            </div>
+        </div> <!--container ends -->
+
+        <!-- Back to Top button begins -->
+        <a href="#home"id="back-to-top" class="btn btn-sm btn-back-to-top smooth-scroll"> <!--d-none for not displaying in smaller devices -->
+            <i class="fas fa-angle-up"></i>
+        </a>
+        <!-- back to top button ends -->
+        
+    </footer>
+    <!-- footer section ends here -->
+</body>
+
+</html>
+<!-- including progress circle plugin -->
+<script src="js/progresscircle/progresscircle.js" type="text/javascript"></script>
+<!-- including isotope plugin for filter -->
+<script src="js/isotope/isotope.pkgd.min.js"></script>
