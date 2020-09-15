@@ -6,7 +6,9 @@
 
 @media (min-width: 1200px) {
   /*display heading */
-
+  #home-content {
+    top: 10%;
+  }
   ul.navbar-nav > li > a,
   .white-nav-top ul.navbar-nav > li > a {
     font-size: 16px;
@@ -19,6 +21,9 @@
   p /*font-size of generic p section is much less */ {
     font-size: 15px;
   }
+  #home-content {
+    top: 30%;
+  }
 }
 
 /*small devices (portrait tablets and small desktops) */
@@ -26,9 +31,8 @@
 @media (min-width: 768px) and (max-width: 991px) {
   /* headings section */
 
-  #home-content-inner {
-    text-align: center;
-  }
+  /*change color of accordion */
+
   #text-alter {
     display: block;
     font-size: 20px;
@@ -146,9 +150,7 @@
   }
 
   /*home heading section */
-  #home-content-inner {
-    text-align: center;
-  }
+
   #text-alter {
     display: block;
     font-size: 16px;
@@ -236,12 +238,74 @@
 }
 
 /*extra small devices (portrait phones and smaller devices,android phones) */
+@media (max-width: 700px) {
+  #home-content {
+    top: 10%;
+  }
+  #home-content-inner {
+    /*aligning content to left1 */
+    text-align: center;
+  }
+  #home-content {
+    padding-left: 0;
+  }
+  #home-heading h1:nth-child(1),
+  #home-heading h1:nth-child(3),
+  #home-heading h1:nth-child(3),
+  #home-heading #right-inner-section {
+    font-size: 26px;
+  }
+  #home-heading h1:nth-child(2) span,
+  #home-heading h1:nth-child(2) {
+    font-size: 32px;
+  }
 
+  #home-heading #right-inner-section {
+    font-weight: bold;
+    float: none;
+  }
+  #home-heading #right-inner-section span {
+    font-size: 60px;
+  }
+  /*align quote box to center. */
+  blockquote.quote-box {
+    margin: auto;
+    width: 50%;
+    margin: 60px auto;
+  }
+  .quotation-mark {
+    font-size: 50px;
+  }
+  .quote-text {
+    margin-top: -50px;
+  }
+}
 @media (max-width: 480px) {
   /*again paying heed to circles as they go frenzy immediately */
   .circlechart .circle-chart {
     width: 80px;
     height: 75px;
+  }
+  #home-heading h1:nth-child(1),
+  #home-heading h1:nth-child(3),
+  #home-heading h1:nth-child(3),
+  #home-heading #right-inner-section {
+    font-size: 22px;
+  }
+  #home-heading h1:nth-child(2) span,
+  #home-heading h1:nth-child(2) {
+    font-size: 29px;
+  }
+
+  #home-heading #right-inner-section {
+    font-weight: bold;
+    float: none;
+  }
+  #home-heading #right-inner-section span {
+    font-size: 40px;
+  }
+  blockquote.quote-box {
+    margin-bottom: 40px;
   }
   /*reducing generic vertical headings size */
   .vertical-heading h2 {
@@ -305,6 +369,27 @@
   .circlechart .circle-chart {
     width: 70px;
     height: 68px;
+  }
+  #home-heading h1:nth-child(1),
+  #home-heading h1:nth-child(3),
+  #home-heading h1:nth-child(3),
+  #home-heading #right-inner-section {
+    font-size: 21px;
+  }
+  #home-heading h1:nth-child(2) span,
+  #home-heading h1:nth-child(2) {
+    font-size: 25px;
+  }
+  blockquote.quote-box {
+    margin-top: 35px;
+  }
+
+  #home-heading #right-inner-section {
+    font-weight: bold;
+    float: none;
+  }
+  #home-heading #right-inner-section span {
+    font-size: 30px;
   }
 }
 @media (max-width: 320px) /*more smaller resoultion cells */ /*to */ {
