@@ -1,0 +1,6 @@
+##TODO:
+1.update the page loader.
+2.create the experience section
+3.update projects. link to proj and proj on hover preview.
+4.create a tab for resume download.
+5.update the front page of the site. UI/UX enhance.
