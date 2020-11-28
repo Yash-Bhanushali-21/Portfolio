@@ -48,7 +48,7 @@ TypeWriter.prototype.type = function () {
   setTimeout(() => this.type(), typeSpeed);
 };
 
-$(window).on("load", function () {
+
   $("#navbarNav").scrollspy();
   //preloader:-
   //$("#content").fadeIn(500);
@@ -73,7 +73,7 @@ $(window).on("load", function () {
     $("#home-heading-2").addClass("animated fadeInLeft");
     $(".navbar-brand").addClass("animated fadeInDown");
   }, 0);
-});
+
 
 /*============================
     portfolio filter section:
